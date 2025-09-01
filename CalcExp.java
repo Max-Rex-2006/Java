@@ -14,10 +14,11 @@ public class CalcExp
         {
             System.out.println("Please enter:\n 1-to add \n 2-to subtract \n 3-to multiply \n 4-to divide");
             ins = scn.nextInt();
-            System.out.println("Please enter the numbers:");
-            a = scn.nextDouble();
-            b = scn.nextDouble();
-            //if ((ins>=1)&&(ins<=4))
+            if ((ins>=1)&&(ins<=4))
+            {
+                System.out.println("Please enter the numbers:");
+                a = scn.nextDouble();
+                b = scn.nextDouble();
                 switch (ins)
                 {
                     case 1:
@@ -39,7 +40,11 @@ public class CalcExp
                 };
                 System.out.println("Do you want to continue? Please answer true to continue or false to exit");
                 cont = scn.nextBoolean();
-            
+            }
+            else
+            {
+                System.out.println("Please enter an option between 1 and 4.");
+            };
         }
         scn.close();
     }
