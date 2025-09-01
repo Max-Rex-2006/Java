@@ -6,7 +6,7 @@ public class CalcExp
 {
     public static void main(String[] args) 
     {
-        double a=0, b=0, result;
+        double a=0, b=0, result; //The numbers that are to be used
         int ins=0;
         Scanner scn = new Scanner(System.in);
         boolean cont = true;
