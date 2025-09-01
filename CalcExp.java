@@ -7,9 +7,10 @@ public class CalcExp
     public static void main(String[] args) 
     {
         double a=0, b=0, result; //The numbers that are to be used
-        int ins=0;
-        Scanner scn = new Scanner(System.in);
-        boolean cont = true;
+        int ins=0; //Users instruction whether to add, sub, mult or div
+        Scanner scn = new Scanner(System.in); //user input
+        boolean cont = true; //Whether to continue using of stop
+        
         while (cont == true)
         {
             System.out.println("Please enter:\n 1-to add \n 2-to subtract \n 3-to multiply \n 4-to divide");
