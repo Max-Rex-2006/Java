@@ -1,0 +1,5 @@
+Algorithm:
+
+User enters whether to add, sub, mult or div
+User enters 2 numbers
+User enters whether to continue or not
