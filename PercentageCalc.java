@@ -14,6 +14,6 @@ public class PercentageCalc {
         e = scn.nextFloat();
         result = (a+b+c+d+e)/5;
         scn.close();
-        System.out.println("Your net percentage is:" + result);
+        System.out.println("Your net percentage is: " + result);
     }    
 }
