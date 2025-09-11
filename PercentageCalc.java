@@ -6,7 +6,7 @@ public class PercentageCalc {
     public static void main(String[] args) {
         float a,b,c,d,e,result;
         Scanner scn = new Scanner (System.in);
-        System.out.println("Please enter the marks of the five subjects whose percentage you wwant to calculate:");
+        System.out.println("Please enter the marks of the five subjects whose percentage you want to calculate:");
         a = scn.nextFloat();
         b = scn.nextFloat();
         c = scn.nextFloat();
